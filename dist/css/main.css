@@ -1029,13 +1029,13 @@ th {
 .primary-btn {
 	color: #fff;
 	padding: 0 52px;
-	background: #e45447;
+	background: #03a64a;
 	overflow: hidden;
 	border-radius: 40px;
 	font-size: 15px;
 	font-weight: 600;
 	display: inline-block;
-	border: 1px solid #e45447;
+	border: 1px solid #1f8c78;
 	vertical-align: middle;
 	position: relative;
 	z-index: 1;
@@ -1079,7 +1079,7 @@ th {
 }
 .primary-btn:hover {
 	background: #fff;
-	border: 1px solid #e45447;
+	border: 1px solid #03a64a;
 }
 .primary-btn:hover:before {
 	opacity: 0;
@@ -1091,7 +1091,7 @@ th {
 }
 .primary-btn:hover span {
 	opacity: 1;
-	color: #e45447;
+	color: #03a64a;
 	-webkit-transform: translate3d(0, 0, 0);
 	-moz-transform: translate3d(0, 0, 0);
 	-ms-transform: translate3d(0, 0, 0);
@@ -1243,8 +1243,8 @@ th {
 	}
 }
 .primary-btn.white {
-	border: 1px solid #90acd1;
-	color: #e45447;
+	border: 1px solid #456673;
+	color: #03a64a;
 	background: #fff;
 }
 .primary-btn.white span {
@@ -1254,7 +1254,7 @@ th {
 	color: #222222;
 }
 .primary-btn.white:hover {
-	background: #90acd1;
+	background: #456673;
 	color: #fff;
 }
 .primary-btn.white:hover span {
@@ -2448,7 +2448,7 @@ h6 {
 	padding: 0px;
 	text-decoration: none;
 	display: inline-block;
-	color: #222222;
+	color: #456673;
 	font-weight: 500;
 	font-size: 16px;
 	text-transform: capitalize;
@@ -2457,7 +2457,7 @@ h6 {
 }
 .nav-menu a.active,
 .nav-menu a:hover {
-	color: #e45447 !important;
+	color: #03a64a !important;
 }
 .nav-menu.white a {
 	color: #fff;
@@ -2667,7 +2667,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	}
 }
 .banner-content .me {
-	background: #90acd1;
+	background: #1f8c78;
 	padding: 18px;
 	display: inline-block;
 	color: #fff;
@@ -2684,7 +2684,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	height: 0;
 	border-left: 26px solid transparent;
 	border-right: 0px solid transparent;
-	border-top: 24px solid #90acd1;
+	border-top: 24px solid #1f8c78;
 }
 .banner-content .designation {
 	max-width: 390px;
@@ -2701,7 +2701,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	color: #e45447;
 }
 .banner-content .designation .developer {
-	color: #90acd1;
+	color: #49a671;
 }
 
 .banner-img {
@@ -2968,7 +2968,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	padding: 0 28px;
 	background: #fff;
 	color: #222222;
-	border: 1px solid #90acd1;
+	border: 1px solid #456673;
 }
 @media (max-width: 1199px) {
 	.single-job .primary-btn {
@@ -2982,7 +2982,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	color: #222222;
 }
 .single-job:hover {
-	background: #90acd1;
+	background: #456673;
 	cursor: pointer;
 	color: #fff;
 }
