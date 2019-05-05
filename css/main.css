@@ -995,7 +995,7 @@ th {
 	bottom: -35px;
 	width: 10px;
 	height: 10px;
-	background: #e45447;
+	background: #456673;
 	border-radius: 7px;
 }
 @media (max-width: 1024px) {
@@ -1010,7 +1010,7 @@ th {
 	bottom: -31px;
 	width: 100px;
 	height: 2px;
-	background: #e45447;
+	background: #456673;
 }
 @media (max-width: 1024px) {
 	.section-title h2:after {
@@ -1048,6 +1048,12 @@ th {
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
+}
+#facebookBtn {
+	background: blue;
+}
+#facebookBtn:hover span {
+	color: white;
 }
 @media (max-width: 767px) {
 	.primary-btn {
@@ -2708,6 +2714,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	text-align: right;
 	position: relative;
 	left: 160px;
+	bottom: 72px;
 }
 @media (max-width: 1480px) {
 	.banner-img {
@@ -2925,18 +2932,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background: #f9f9ff;
 }
 
-.single-job {
-	background-color: #f9f9ff;
-	padding: 40px 30px;
+.single-solution {
+	background-color: #49a671;
+	padding: 30px 10px;
+	color: #0d0d0d;
 	border-radius: 10px;
 	margin-bottom: 30px;
+	height: 300px;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 }
 @media (max-width: 576px) {
-	.single-job .top-sec {
+	.single-solution .top-sec {
 		-webkit-box-direction: normal;
 		-webkit-box-orient: vertical;
 		-webkit-flex-direction: column;
@@ -2945,8 +2954,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 		flex-direction: column;
 	}
 }
-.single-job .top-left h4 {
-	color: #000;
+.single-solution .top-left h4 {
+	color: #456673;
 	font-size: 21px;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
@@ -2955,38 +2964,39 @@ body.mobile-nav-active #mobile-nav-toggle {
 	font-weight: 700;
 }
 @media (max-width: 1199px) {
-	.single-job .top-left h4 {
+	.single-solution .top-left h4 {
 		font-size: 18px;
 	}
 }
 @media (max-width: 576px) {
-	.single-job .bottom-sec {
+	.single-solution .bottom-sec {
 		margin-top: 30px;
 	}
 }
-.single-job .primary-btn {
-	padding: 0 28px;
+.single-solution .primary-btn {
+	padding: 0 20px;
+	margin-bottom: 30px;
 	background: #fff;
-	color: #222222;
+	color: #456673;
 	border: 1px solid #456673;
 }
 @media (max-width: 1199px) {
-	.single-job .primary-btn {
+	.single-solution .primary-btn {
 		padding: 0 15px;
 	}
 }
-.single-job .primary-btn span {
+.single-solution .primary-btn span {
 	color: #222222;
 }
-.single-job .primary-btn:before {
+.single-solution .primary-btn:before {
 	color: #222222;
 }
-.single-job:hover {
-	background: #456673;
+.single-solution:hover {
+	background: #1f8c78;
 	cursor: pointer;
 	color: #fff;
 }
-.single-job:hover .top-left h4 {
+.single-solution:hover .top-left h4 {
 	color: #fff;
 }
 
