@@ -289,9 +289,9 @@ $(document).ready(function() {
 	});
 
 	//------- Owl Carousel  js --------//
-	if ($('.active-brand-carousel').length) {
-		$('.active-brand-carousel').owlCarousel({
-			items: 5,
+	if ($('.active-brand-carusel').length) {
+		$('.active-brand-carusel').owlCarousel({
+			items: 4,
 			loop: true,
 			autoplayHoverPause: true,
 			autoplay: true,
@@ -300,13 +300,13 @@ $(document).ready(function() {
 					items: 1
 				},
 				768: {
-					items: 3
+					items: 2
 				},
 				991: {
-					items: 4
+					items: 3
 				},
 				1024: {
-					items: 5
+					items: 4
 				}
 			}
 		});

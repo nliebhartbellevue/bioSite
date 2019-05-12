@@ -2752,7 +2752,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 	width: auto !important;
 }
 .brand-wrap .single-brand {
-	text-align: center;
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	-ms-filter: grayscale(100%);
@@ -3007,16 +3006,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background: #fff;
 }
 .service-area .col-lg-3.col-md-6:nth-child(1) .single-service {
-	background: #e2a599;
+	background: #456673;
+	height: 350px;
 }
 .service-area .col-lg-3.col-md-6:nth-child(2) .single-service {
-	background: #715f69;
+	background: #1f8c78;
+	height: 350px;
 }
 .service-area .col-lg-3.col-md-6:nth-child(3) .single-service {
-	background: #e45447;
+	background: #03a64a;
+	height: 350px;
 }
 .service-area .col-lg-3.col-md-6:nth-child(4) .single-service {
-	background: #90acd1;
+	background: #49a671;
+	height: 350px;
 }
 
 .single-service {
